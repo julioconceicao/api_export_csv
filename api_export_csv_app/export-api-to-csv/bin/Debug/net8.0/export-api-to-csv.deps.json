@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "teste2/1.0.0": {
+      "export-api-to-csv/1.0.0": {
         "runtime": {
-          "teste2.dll": {}
+          "export-api-to-csv.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "teste2/1.0.0": {
+    "export-api-to-csv/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

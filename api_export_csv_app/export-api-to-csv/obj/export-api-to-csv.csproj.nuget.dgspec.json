@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\teste2\\teste2.csproj": {}
+    "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\api_export_csv\\api_export_csv_app\\export-api-to-csv\\export-api-to-csv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\teste2\\teste2.csproj": {
+    "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\api_export_csv\\api_export_csv_app\\export-api-to-csv\\export-api-to-csv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\teste2\\teste2.csproj",
-        "projectName": "teste2",
-        "projectPath": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\teste2\\teste2.csproj",
+        "projectUniqueName": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\api_export_csv\\api_export_csv_app\\export-api-to-csv\\export-api-to-csv.csproj",
+        "projectName": "export-api-to-csv",
+        "projectPath": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\api_export_csv\\api_export_csv_app\\export-api-to-csv\\export-api-to-csv.csproj",
         "packagesPath": "C:\\Users\\Oficina Inteligente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\teste2\\obj\\",
+        "outputPath": "C:\\Users\\Oficina Inteligente\\Desktop\\code\\api_json_to_csv_converter\\conversor_api_csv\\cs\\api_export_csv\\api_export_csv_app\\export-api-to-csv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oficina Inteligente\\AppData\\Roaming\\NuGet\\NuGet.Config"

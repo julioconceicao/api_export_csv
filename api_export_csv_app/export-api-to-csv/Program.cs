@@ -9,6 +9,15 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        // Diretório onde o arquivo CSV será gerado
+        string directory = @"C:\Users\Oficina Inteligente\Desktop";
+
+        // Nome do arquivo CSV com carimbo de data e hora
+        string fileName = $"exportacao_{DateTime.Now:yyyyMMdd_HHmmss}.csv";
+
+        string filePath = Path.Combine(directory, fileName);
+
+
         string url = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
 
         using (HttpClient client = new HttpClient())
@@ -44,13 +53,13 @@ class Program
                 };
 
                 // Escrevendo os dados em um arquivo CSV
-                using (StreamWriter file = new StreamWriter("crypto.csv"))
+                using (StreamWriter file = new StreamWriter(filePath))
                 {
                     await file.WriteLineAsync("code,codein,name,high,low,varBid,pctChange,bid,ask,timestamp,create_date");
                     await file.WriteLineAsync(string.Join(",", listing));
                 }
 
-                Console.WriteLine("CSV criado com sucesso!");
+                Console.WriteLine($"CSV criado com sucesso em: {filePath}");
             }
             else
             {
